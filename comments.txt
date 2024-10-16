@@ -9,3 +9,33 @@ git branch -M main
 git push -u origin main
 Create readme file on remote respiotry 
 pull it on local resirotry
+create new branch and merge it with main branch 
+
+Switch to the main branch:
+git checkout main
+
+Pull the latest changes from main:
+git pull origin main
+
+Create a new branch from main:
+git checkout -b feature-modify-main
+
+Make changes, then stage and commit them:
+git add .
+git commit -m "Added new feature X"
+
+
+Push the new branch to GitHub:
+git push origin feature-modify-main
+
+you want to release version 1.0 of the project:
+Create a tag for the release: Tagging a release is common in version control to mark a specific point in the repository:
+git tag -a v1.0 -m "Release version 1.0"
+
+Push the tag to GitHub: To ensure the release is available remotely on GitHub:
+git push origin v1.0
+Publish the release: If you're using GitHub, you can also go to the "Releases" section and publish this tag as an official release with additional note
+open tags and release . choose tags and comments and press release.
+
+
+NOW WE WILL USE MLFLOW AND PUSH CHANGES TO GITHUB 
